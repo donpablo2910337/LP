@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: https://avaefape.educacao.sp.gov.br/sitemap.xml
